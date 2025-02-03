@@ -1,0 +1,25 @@
+/* Tailwind-based styles for responsiveness */
+
+/* Large Screens */
+@screen md {
+    .search-container {
+      display: flex;
+    }
+  }
+  
+  /* Mobile Menu */
+  .menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 1.5rem;
+    background: #333;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .menu a {
+    display: block;
+    padding: 0.5rem 0;
+    color: #fff;
+    text-decoration: none;
+  }
